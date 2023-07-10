@@ -1,0 +1,44 @@
+.features {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 6% 6% 0 6%;
+  .F__top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 10%;
+    width: 30%;
+    h2 {
+      color: rgba(1, 17, 53, 1);
+      span {
+        color: rgba(0, 144, 189, 1);
+      }
+    }
+    p {
+      width: 80%;
+    }
+  }
+  .F__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 30px;
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+      padding-bottom: 13%;
+    }
+  }
+}
