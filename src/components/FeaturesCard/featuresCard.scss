@@ -4,25 +4,26 @@
   align-items: center;
   gap: 20px;
   padding: 16px;
-  width: 300px;
+  width: 600px;
+  height: 500px;
   border-radius: 5px;
   box-shadow: 13.791885375976562px 3.4479713439941406px 87.92327117919922px 0px
     rgba(0, 0, 0, 0.09);
 
   p {
     color: rgba(137, 137, 137, 1);
-    font-size: 14px;
+    font-size: 21px;
     text-align: center;
     width: 80%;
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 38px;
     width: 60%;
     text-align: center;
   }
 
   img {
-    width: 30%;
+    width: 40%;
   }
 }

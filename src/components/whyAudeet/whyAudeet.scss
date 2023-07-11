@@ -1,0 +1,23 @@
+.WhyAudeet {
+  display: flex;
+  flex-direction: column;
+  .WA__top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15%;
+    h1 {
+      font-size: 50px;
+      font-weight: 500;
+      color: rgba(1, 17, 53, 1);
+
+      span {
+        color: rgba(0, 144, 189, 1);
+      }
+    }
+  }
+  .WA__bottom {
+    display: flex;
+    flex-direction: column;
+  }
+}

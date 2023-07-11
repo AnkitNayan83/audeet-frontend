@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 6% 6% 0 6%;
+  padding: 6% 4% 0 0;
   .F__top {
     display: flex;
     flex-direction: column;
@@ -11,13 +11,15 @@
     padding-left: 10%;
     width: 30%;
     h2 {
+      font-size: 50px;
       color: rgba(1, 17, 53, 1);
       span {
         color: rgba(0, 144, 189, 1);
       }
     }
     p {
-      width: 80%;
+      width: 100%;
+      font-size: 24px;
     }
   }
   .F__bottom {
@@ -38,7 +40,7 @@
       flex-direction: column;
       align-items: flex-start;
       gap: 20px;
-      padding-bottom: 13%;
+      padding-bottom: 15%;
     }
   }
 }

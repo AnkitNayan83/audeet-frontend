@@ -1,63 +1,64 @@
-.login-container{
-    background-image: url("../../../public/assests/Frame.png");
-    background-position: center;
-    // background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-  
-    display: flex;
-    // align-items: center;
-    // justify-content: center;
-    // gap: 10px;
-    .left-part{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 120px;
-        padding: 60px;
-        color: white;
-        width: 440px;
-        text-align: center;
-    }
+.login-container {
+  background-image: url("../../../public/assests/Frame.png");
+  background-position: center;
+  // background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 
-    /* Login.scss */
-.right-part{
+  display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // gap: 10px;
+  .left-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    padding: 60px;
+    color: white;
+    width: 440px;
+    text-align: center;
+  }
+
+  /* Login.scss */
+  .right-part {
     display: flex;
     // background-color: #ccc;
     // justify-content: center;
     align-items: center;
     // width: 800px;
-    .login-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-left: 30%;
-        // width: 420px;
-        h2{
-            margin-bottom: 16px;
-            font-size: 1rem;
-            font-weight: 400;
-        }
-       input{
-        padding:10px 53px ;
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-left: 30%;
+      background: white;
+      // width: 420px;
+      h2 {
+        margin-bottom: 16px;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      input {
+        padding: 10px 53px;
         margin-bottom: 20px;
         width: 200px;
         border: 1px solid #ccc;
         border-radius: 4px;
         font-size: 16px;
-       }
+      }
 
-       button {
-        // 
-                padding: 15px 34px;
-                background-color:#011135;
-                color: #fff;
-                border: none;
-                border-radius: 4px;
-                font-size: 16px;
-                cursor: pointer;
-        }
+      button {
+        //
+        padding: 15px 34px;
+        background-color: #011135;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+      }
     }
-}
+  }
 }

@@ -1,0 +1,47 @@
+.WAcard {
+  background-image: url("../../../public/assests/bgWa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50vh;
+  &.rev {
+    background-image: url("../../../public/assests/bgWaR.png");
+    flex-direction: row-reverse;
+  }
+  height: 300px;
+  .WAcard__left {
+    flex: 1;
+    height: 100%;
+    // margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      height: 200%;
+    }
+  }
+
+  .WAcard__right {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    &.pad-r {
+      padding-left: 20px;
+    }
+    h1 {
+      font-size: 38px;
+      font-weight: 500;
+      color: rgba(1, 17, 53, 1);
+    }
+    p {
+      font-size: 24px;
+      color: rgb(33, 36, 41);
+      font-weight: 400;
+    }
+  }
+}
